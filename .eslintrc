@@ -1,0 +1,39 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "rules": {
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".css"] }],
+        "no-unused-expressions": ["error", {"allowTaggedTemplates": true}],
+        "no-param-reassign": ["error", { "props": false }],
+        "linebreak-style": 0,
+        "react/jsx-one-expression-per-line": 0,
+        "no-console": 0
+    },
+    "settings": {
+        "import/resolver": {
+            "alias": {
+                "map": [
+                    ["actions", "./src/actions"],
+                    ["libs", "./src/libs"],
+                    ["assets", "./src/assets"],
+                    ["theme", "./src/theme"],
+                    ["reducers", "./src/reducers"],
+                    ["sagas", "./src/sagas"],
+                    ["translations", "./src/translations"],
+                    ["utils", "./src/utils"],
+                    ["constants", "./src/constants"],
+                    ["config", "./src/config"],
+                    ["components", "./src/components"],
+                    ["containers", "./src/containers"],
+                    ["graphql", "./src/graphql"],
+                    ["views", "./src/views"]
+                ]
+            }
+        }
+    }
+}

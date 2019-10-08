@@ -1,0 +1,119 @@
+.describe-block {
+    padding: 70px 0 40px;
+}
+
+.describe-block .describe-title {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #ff657e;
+}
+
+.describe-block .describe-text {
+    color: #343434;
+    font-size: 16px;
+}
+
+.describe-block.describe-block-v2 .describe-title {
+    color: #8e518d;
+}
+
+.icon-block {
+    padding: 100px 0;
+}
+
+.icon-block img {
+    width: auto;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.text-primary {
+    color: #ff657e !important;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.icon-block .icon-item:hover {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.icon-block .icon-item {
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.describe-block .describe-title span {
+    font-weight: bold;
+}
+
+.slick-dots li.slick-active button {
+    width: 35px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #ff657e;
+}
+
+.slick-dots li button {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 101, 126, 0.5);
+}
+
+.slick-dots li button::before {
+    content: none;
+}
+
+.slick-dots li.slick-active {
+    width: 35px;
+}
+
+.slick-track {
+    padding-bottom: 30px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #343434;
+    overflow-x: hidden;
+    background-color: #fff;
+  }
+
+  @media (max-width: 991px) {
+    .banner-block .banner-title {
+        font-size: 22px;
+    }
+    .banner-block .banner-content {
+        width: 100%;
+    }
+  }
+
+
+  @media (max-width: 767px) {
+    .banner-block {
+        height: 160px;
+    }
+    .icon-block img {
+        height: 60px;
+    }
+    .describe-block .describe-title {
+        font-size: 35px;
+    }
+  }
+

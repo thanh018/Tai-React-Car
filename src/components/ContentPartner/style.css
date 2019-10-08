@@ -1,0 +1,193 @@
+.describe-block {
+    padding: 70px 0 40px;
+}
+
+.describe-block .describe-title {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #ff657e;
+}
+
+.describe-block .describe-text {
+    color: #343434;
+    font-size: 16px;
+}
+
+.icon_action {
+    margin: 50px 0;
+}
+
+.partners-page .icon_action a {
+    font-weight: 700;
+    min-width: 335px;
+}
+
+a.btn.btn-primary {
+    border-radius: 50px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ff657e;
+    border-color: #ff657e;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 0.8rem 2.5rem;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.title-text {
+    font-size: 54px;
+    padding: 65px 0 50px;
+    text-align: center;
+}
+
+h1 {
+    color: #ff657e;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.title-text strong {
+    font-weight: 700;
+}
+
+.card {
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.card .card-title {
+    text-align: center;
+    padding: 30px 15px;
+    border-bottom: solid thin #dee2e6;
+}
+
+.card .card-title h4 {
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #ff657e;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+.card .card-title .des {
+    padding-top: 10px;
+    font-size: 22px;
+    color: #343434;
+}
+
+.card .card-body {
+    padding: 30px;
+}
+
+.card .card-body .form-group {
+    margin-bottom: 45px;
+}
+
+.card .card-body .form-group label {
+    font-size: 22px;
+    color: #343434;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.wpcf7-form-control-wrap {
+    display: block;
+}
+
+.card .card-body .form-group .form-control {
+    border-radius: 5px;
+    border: solid 1.5px #979797;
+    height: 75px;
+}
+
+.card .card-body .form-group small {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    color: #343434;
+}
+
+.card .card-body .form-group small a {
+    font-weight: normal;
+    color: #ff657e;
+}
+
+.card .card-body .form-submit [type=submit] {
+    border-radius: 42px;
+    font-weight: 700;
+    width: 335px;
+}
+
+.card .card-body .form-group small a {
+    font-weight: 700;
+}
+
+.card .card-body .form-submit {
+    text-align: center;
+    margin: 100px 0 70px;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #343434;
+    overflow-x: hidden;
+    background-color: #fff;
+  }
+
+  @media (max-width: 991px) {
+    .banner-block .banner-title {
+        font-size: 22px;
+    }
+
+    .banner-block .banner-content {
+        width: 100%;
+    }
+
+    .title-text {
+        font-size: 35px;
+    }
+
+    .card .card-title h4 {
+        font-size: 22px;
+    }
+
+    .describe-block {
+        padding-top: 30px;
+    }
+
+  }
+
+  @media (max-width: 767px) {
+    .banner-block {
+        height: 160px;
+    }
+
+    .card .card-body .form-submit [type=submit] {
+        width: 100%;
+    }
+
+    .card .card-body .form-submit {
+        margin: 70px auto 50px;
+    }
+
+  }
+
+
