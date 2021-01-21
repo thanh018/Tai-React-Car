@@ -16,7 +16,7 @@
     "graphql": "^14.0.2",
     "graphql-tag": "^2.10.0",
     "history": "^4.7.2",
-    "immer": "^1.7.2",
+    "immer": "^8.0.1",
     "localforage": "^1.7.2",
     "lodash": "^4.17.11",
     "material-icons-react": "^1.0.4",
